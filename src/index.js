@@ -6,6 +6,9 @@ import './index.css';
 const hello = () => {
   alert('Hi Everybody');
 };
+const alertMessage = () => {
+  alert('BOOOOOOOOOEEEEEM!!!!');
+};
 
 const Greeting = () => {
   return (
@@ -13,6 +16,7 @@ const Greeting = () => {
       <h1>Hello World!</h1>
       <p>hello</p>
       <button onClick={hello}>Say Hello</button>
+      <button onClick={alertMessage}>DON'T CLICK</button>
     </div>
   );
 };
